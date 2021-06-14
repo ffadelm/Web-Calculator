@@ -1,6 +1,6 @@
 # Web-Calculator
 
-#Dicoding Course - Front End Web Developer
+Dicoding Course - Front End Web Developer
 
 ![image](https://user-images.githubusercontent.com/67732382/121858066-6e69b100-cd20-11eb-9084-77aea60de166.png)
 -
