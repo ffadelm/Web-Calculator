@@ -6,6 +6,18 @@ body{
     font-family: sans-serif;
 }
 
+.judul{
+    font-size:3em;
+    text-align: center;
+    color: #ff06e6;
+    font-weight: bold;
+}
+
+.sub-judul{
+    font-size: 30px;
+    font-weight: normal;
+}
+
 .flex-container-column{
     display: flex;
     flex-direction: column;
@@ -62,8 +74,43 @@ body{
     font-weight: bold;
 }
 
+.history{
+    width: 80%;
+    margin: 30px auto 0 auto;
+    overflow: scroll;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #e638d4;
+}
+
+th,td{
+    text-align: center;
+    padding: 16px;
+}
+
+th{
+    background-color: #ff06e6;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #d2d2d2;
+}
+
 @media screen and (max-width: 513px){
+    
+    .judul{
+        font-size: 2em;
+    }
+    
     .button{
         padding: 10px;
+    }
+    .history{
+        width: 100%;
     }
 }
